@@ -49,5 +49,5 @@ class BaseModel:
                 }
 
     def __str__(self):
-        """Returns string representation of the BaseModel instance"""
+        """Returns the string representation of BaseModel instance"""
         return f"[{self.__class__.__name__}] ({self.id}) {self.__dict__}"
