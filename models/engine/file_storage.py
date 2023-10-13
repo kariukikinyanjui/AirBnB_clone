@@ -5,6 +5,7 @@ JSON files back into instances.
 """
 import json
 from models.base_model import BaseModel
+from models.user import User
 
 """Define a class FileStorage"""
 
