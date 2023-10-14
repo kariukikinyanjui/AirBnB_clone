@@ -8,7 +8,6 @@ import uuid
 from datetime import datetime
 
 
-
 class BaseModel:
     """
     This is the base class that defines all common attributes/methods
