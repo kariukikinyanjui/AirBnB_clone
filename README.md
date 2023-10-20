@@ -54,7 +54,7 @@ In our case, we want to be able to manage the objects of our project:
 * How to handle named arguments in a function
 
 ## Requirements
-###Python Scripts
+### Python Scripts
 * Allowed editors: `vi`, `vim`, `emacs`
 * All your files will be interpreted/compiled on Ubuntu 20.04 LTS using python3 (version 3.8.5)
 * All your files should end with a new line
@@ -68,7 +68,7 @@ In our case, we want to be able to manage the objects of our project:
 * All your functions (inside and outside a class) should have a documentation (`python3 -c 'print(__import__("my_module").my_function.__doc__)'` and `python3 -c 'print(__import__("my_module").MyClass.my_function.__doc__)'`)
 * A documentation is not a simple word, it’s a real sentence explaining what’s the purpose of the module, class or method (the length of it will be verified)
 
-###Python Unit Tests
+### Python Unit Tests
 * Allowed editors: `vi`, `vim`, `emacs`
 * All your files should end with a new line
 * You have to use the [unittest module](https://docs.python.org/3.4/library/unittest.html#module-unittest)
@@ -126,4 +126,4 @@ $
 
 All tests should also pass in non-interactive mode: `$ echo "python3 -m unittest discover tests" | bash`
 
-![Image representation of the project](https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2018/6/815046647d23428a14ca.png)
+![Image representation of the project](https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2018/6/815046647d23428a14ca.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20231020%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20231020T183646Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=1b727c6ead411cd91fb74d1abea06150229e60741d20bb7022eb672bb25bf90b)
