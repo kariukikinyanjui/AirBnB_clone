@@ -84,10 +84,11 @@ In our case, we want to be able to manage the objects of our project:
 * All your functions (inside and outside a class) should have a documentation (`python3 -c 'print(__import__("my_module").my_function.__doc__)'` and `python3 -c 'print(__import__("my_module").MyClass.my_function.__doc__)'`)
 
 ## More info
-###Execution
+### Execution
 
 Your shell should work like this in interactive mode:
-`$ ./console.py
+```
+$ ./console.py
 (hbnb) help
 
 Documented commands (type help <topic>):
@@ -97,11 +98,12 @@ EOF  help  quit
 (hbnb) 
 (hbnb) 
 (hbnb) quit
-$`
+$
+```
 
 But also in non-interactive mode:(like the Shell)
-
-`$ echo "help" | ./console.py
+```
+$ echo "help" | ./console.py
 (hbnb)
 
 Documented commands (type help <topic>):
@@ -119,7 +121,8 @@ Documented commands (type help <topic>):
 ========================================
 EOF  help  quit
 (hbnb) 
-$`
+$
+```
 
 All tests should also pass in non-interactive mode: `$ echo "python3 -m unittest discover tests" | bash`
 
