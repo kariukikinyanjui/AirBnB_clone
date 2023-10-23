@@ -8,9 +8,9 @@
 	justify-content: flex-end;
 	align-items: center;
 	text-align: right;
-4-filters.css}
+}
 
-section.filter button {
+section.filters button {
 	font-size: 18px;
 	color: white;
 	background-color: #FF5A5F;
@@ -19,7 +19,6 @@ section.filter button {
 	border-radius: 4px;
 	width: 20%;
 	margin-right: 30px;
-	text-color: #FFFFFF;
 	opacity: 1;
 }
 
