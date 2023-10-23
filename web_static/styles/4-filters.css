@@ -10,7 +10,7 @@
 	text-align: right;
 }
 
-section.filters button {
+.filters button {
 	font-size: 18px;
 	color: white;
 	background-color: #FF5A5F;
@@ -22,6 +22,6 @@ section.filters button {
 	opacity: 1;
 }
 
-section.filters button:hover {
+.filters button:hover {
 opacity: 0.9;
 }
